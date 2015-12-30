@@ -32,4 +32,4 @@ resources:
   homepage: https://github.com/tupinek/App-CPAN-Search
   license: http://opensource.org/licenses/bsd-license.php
   repository: git://github.com/tupinek/App-CPAN-Search
-version: '0.01'
+version: '0.02'

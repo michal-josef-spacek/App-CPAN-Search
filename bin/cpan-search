@@ -1,13 +1,10 @@
 #!/usr/bin/env perl
 
-# Pragmas.
 use strict;
 use warnings;
 
-# Modules.
 use App::CPAN::Search;
 
-# Version.
 our $VERSION = 0.02;
 
 # Run.

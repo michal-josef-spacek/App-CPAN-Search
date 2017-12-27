@@ -1,15 +1,12 @@
 package App::CPAN::Search;
 
-# Pragmas.
 use strict;
 use warnings;
 
-# Modules.
 use CPAN;
 use Class::Utils qw(set_params);
 use Getopt::Std;
 
-# Version.
 our $VERSION = 0.02;
 
 # Constructor.
@@ -95,11 +92,9 @@ App::CPAN::Search - Base class for cpan-search script.
 
 =head1 EXAMPLE
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use App::CPAN::Search;
 
  # Arguments.

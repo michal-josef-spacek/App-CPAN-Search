@@ -1,5 +1,6 @@
 0.02
  - Add LICENSE file.
+ - Remove trivial comments.
  - Update Module::Install to 1.18 version.
  - Update author name.
 

@@ -1,4 +1,4 @@
-0.02
+0.02 2018-02-07T07:59:54+01:00
  - Add LICENSE file.
  - Fix Makefile.PL for new version of Perl and no default »use lib '.'«.
  - Remove trivial comments.

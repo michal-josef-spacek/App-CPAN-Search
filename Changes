@@ -1,5 +1,6 @@
 0.02
  - Add LICENSE file.
+ - Fix Makefile.PL for new version of Perl and no default »use lib '.'«.
  - Remove trivial comments.
  - Update Module::Install to 1.18 version.
  - Update author name.

@@ -22,7 +22,7 @@ EXAMPLE
      cpan-search Module::Install
 
 REPOSITORY
-    <https://github.com/tupinek/App-CPAN-Search>
+    <https://github.com/michal-josef-spacek/App-CPAN-Search>
 
 AUTHOR
     Michal Josef Špaček <mailto:skim@cpan.org>

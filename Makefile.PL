@@ -24,8 +24,8 @@ requires 'Getopt::Std' => 0;
 requires 'perl' => '5.6.0';
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
 	'?Name=App-CPAN-Search';
-resources 'homepage' => 'https://github.com/tupinek/App-CPAN-Search';
-resources 'repository' => 'git://github.com/tupinek/App-CPAN-Search';
+resources 'homepage' => 'https://github.com/michal-josef-spacek/App-CPAN-Search';
+resources 'repository' => 'git://github.com/michal-josef-spacek/App-CPAN-Search';
 test_requires 'Test::More' => 0;
 test_requires 'Test::NoWarnings' => 0;
 tests_recursive;

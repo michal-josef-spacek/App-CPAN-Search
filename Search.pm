@@ -124,7 +124,7 @@ L<Getopt::Std>.
 
 =head1 REPOSITORY
 
-L<https://github.com/tupinek/App-CPAN-Search>
+L<https://github.com/michal-josef-spacek/App-CPAN-Search>
 
 =head1 AUTHOR
 

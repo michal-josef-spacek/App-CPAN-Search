@@ -78,7 +78,7 @@ Constructor.
 
  my $exit_code = $app->run;
 
-Run method.
+Run.
 
 Returns 1 for error, 0 for success.
 

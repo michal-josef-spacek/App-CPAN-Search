@@ -19,7 +19,6 @@ name 'App-CPAN-Search';
 readme_from 'bin/cpan-search';
 recursive_author_tests('xt');
 requires 'CPAN' => 0;
-requires 'Class::Utils' => 0.03;
 requires 'Getopt::Std' => 0;
 requires 'perl' => '5.6.0';
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.

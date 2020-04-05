@@ -4,7 +4,6 @@ use strict;
 use warnings;
 
 use CPAN;
-use Class::Utils qw(set_params);
 use Getopt::Std;
 
 our $VERSION = 0.04;
@@ -15,9 +14,6 @@ sub new {
 
 	# Create object.
 	my $self = bless {}, $class;
-
-	# Process params.
-	set_params($self, @params);
 
 	# Object.
 	return $self;
@@ -84,12 +80,6 @@ App::CPAN::Search - Base class for cpan-search script.
 
 =back
 
-=head1 ERRORS
-
- new():
-         From Class::Utils::set_params():
-                 Unknown parameter '%s'.
-
 =head1 EXAMPLE
 
  use strict;
@@ -119,7 +109,6 @@ App::CPAN::Search - Base class for cpan-search script.
 =head1 DEPENDENCIES
 
 L<CPAN>,
-L<Class::Utils>,
 L<Getopt::Std>.
 
 =head1 REPOSITORY

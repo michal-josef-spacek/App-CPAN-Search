@@ -1,5 +1,6 @@
 0.04
  - Improve LICENSE AND COPYRIGHT section in doc.
+ - Move argument parsing from constructor to run section.
  - Update author github username.
  - Update copyright years.
 

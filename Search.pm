@@ -19,6 +19,14 @@ sub new {
 	# Process params.
 	set_params($self, @params);
 
+	# Object.
+	return $self;
+}
+
+# Run.
+sub run {
+	my $self = shift;
+
 	# Process arguments.
 	$self->{'_opts'} = {
 		'h' => 0,
@@ -34,14 +42,6 @@ sub new {
 		exit 1;
 	}
 	$self->{'_module_prefix'} = shift @ARGV;
-
-	# Object.
-	return $self;
-}
-
-# Run.
-sub run {
-	my $self = shift;
 
 	# Print all modules with prefix.
 	# XXX Rewrite to something nice.

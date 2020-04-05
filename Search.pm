@@ -68,19 +68,19 @@ App::CPAN::Search - Base class for cpan-search script.
 
 =head1 METHODS
 
-=over 8
+=head2 C<new>
 
-=item C<new()>
+ my $app = App::CPAN::Search->new;
 
- Constructor.
+Constructor.
 
-=item C<run()>
+=head2 C<run>
 
- Run method.
+ my $exit_code = $app->run;
 
- Returns 1 for error, 0 for success.
+Run method.
 
-=back
+Returns 1 for error, 0 for success.
 
 =head1 EXAMPLE
 

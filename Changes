@@ -6,6 +6,7 @@
  - Improve SYNOPSIS section in doc.
  - Move argument parsing from constructor to run section.
  - Remove unused class.
+ - Rewrite doc to using POD =head2 for methods.
  - Update author github username.
  - Update copyright years.
 

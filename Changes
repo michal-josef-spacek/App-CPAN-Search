@@ -1,5 +1,7 @@
 0.04
  - Add test for constructor.
+ - Change behaviour of run() to return exit code. And run exit in script to
+   return value.
  - Improve LICENSE AND COPYRIGHT section in doc.
  - Move argument parsing from constructor to run section.
  - Remove unused class.

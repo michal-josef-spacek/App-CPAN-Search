@@ -8,7 +8,7 @@ use App::CPAN::Search;
 our $VERSION = 0.04;
 
 # Run.
-App::CPAN::Search->new->run;
+exit App::CPAN::Search->new->run;
 
 # Print version.
 sub VERSION_MESSAGE {

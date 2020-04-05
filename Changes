@@ -1,4 +1,5 @@
 0.04
+ - Add test for constructor.
  - Improve LICENSE AND COPYRIGHT section in doc.
  - Move argument parsing from constructor to run section.
  - Update author github username.

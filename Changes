@@ -3,6 +3,7 @@
  - Change behaviour of run() to return exit code. And run exit in script to
    return value.
  - Improve LICENSE AND COPYRIGHT section in doc.
+ - Improve SYNOPSIS section in doc.
  - Move argument parsing from constructor to run section.
  - Remove unused class.
  - Update author github username.

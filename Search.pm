@@ -62,6 +62,7 @@ App::CPAN::Search - Base class for cpan-search script.
 =head1 SYNOPSIS
 
  use App::CPAN::Search;
+
  my $app = App::CPAN::Search->new;
  my $exit_code = $app->run;
 

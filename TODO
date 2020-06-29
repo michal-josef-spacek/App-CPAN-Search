@@ -1,8 +1,13 @@
 TODO
 ====
 1. Remove dependecy for CPAN module.
+Index je kopie metadat
+CPAN::Index
+- Vypada, ze vubec nejde bez celeho CPAN pouzivat
+CPAN::Index::API
 2. Add tests for run()
-3.
+3. Vypsat jenom ty, ktere jsou nainstalovane.
+4.
 
 Applied
 =======

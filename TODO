@@ -6,8 +6,11 @@ CPAN::Index
 - Vypada, ze vubec nejde bez celeho CPAN pouzivat
 CPAN::Index::API
 2. Add tests for run()
+Blocked by testing of remote call.
 3. Vypsat jenom ty, ktere jsou nainstalovane.
-4.
+4. Kdyz jsem mimo sitove spojeni, ale mam cache, tak ted to nefunguje.
+Prepinac pro nestahovani cache.
+5.
 
 Applied
 =======

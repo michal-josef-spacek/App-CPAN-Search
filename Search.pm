@@ -31,7 +31,7 @@ sub run {
 		|| $self->{'_opts'}->{'h'}) {
 
 		print STDERR "Usage: $0 [-h] [--version] module_prefix\n";
-		print STDERR "\t-h\t\tHelp.\n";
+		print STDERR "\t-h\t\tPrint help.\n";
 		print STDERR "\t--version\tPrint version.\n";
 		print STDERR "\tmodule_prefix\tModule prefix. e.g. ".
 			"Module::Install\n";

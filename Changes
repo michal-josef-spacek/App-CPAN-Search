@@ -1,4 +1,5 @@
 0.06
+ - Add test for help.
  - Fix minimal version of Perl.
  - Improve help in tool.
 

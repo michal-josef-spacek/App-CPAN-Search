@@ -1,5 +1,6 @@
 0.07
  - Fix test requirements.
+ - Fix 04-run.t test to run from different places.
 
 0.06 2022-01-05T12:18:03+01:00
  - Add test for help.

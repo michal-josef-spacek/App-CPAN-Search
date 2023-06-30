@@ -1,4 +1,5 @@
 0.10
+ - Improve cpan-search doc.
  - Update Module::Install to 1.21 version.
 
 0.09 2023-01-23T18:24:20+01:00

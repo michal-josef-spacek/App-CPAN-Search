@@ -36,16 +36,17 @@ cpan-search - Script to search on CPAN archive.
 
 =item * C<-h>
 
- Print help.
+Print help.
 
 =item * C<--version>
 
- Print version of script.
+Print version of script.
 
 =item * C<module_prefix>
 
- Perl module prefix.
- e.g. Module::Install
+Perl module prefix.
+
+e.g. Module::Install
 
 =back
 

@@ -7,16 +7,17 @@ SYNOPSIS
 ARGUMENTS
     *       "-h"
 
-             Print help.
+            Print help.
 
     *       "--version"
 
-             Print version of script.
+            Print version of script.
 
     *       "module_prefix"
 
-             Perl module prefix.
-             e.g. Module::Install
+            Perl module prefix.
+
+            e.g. Module::Install
 
 EXAMPLE
      cpan-search Module::Install

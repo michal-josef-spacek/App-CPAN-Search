@@ -11,7 +11,8 @@ Blocked by testing of remote call.
 4. Kdyz jsem mimo sitove spojeni, ale mam cache, tak ted to nefunguje.
 Prepinac pro nestahovani cache.
 5. Add support for order by release date.
-6.
+6. Change abstract to description of tool.
+7.
 
 Applied
 =======

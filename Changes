@@ -1,4 +1,5 @@
 0.10
+ - Add tests.
  - Improve cpan-search doc.
  - Rewrite arguments process to more intuitive way.
  - Rewrite run() tests to use of help() helper.

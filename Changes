@@ -1,5 +1,6 @@
 0.10
  - Improve cpan-search doc.
+ - Rewrite arguments process to more intuitive way.
  - Rewrite run() tests to use of help() helper.
  - Update Module::Install to 1.21 version.
  - Update copyright years.

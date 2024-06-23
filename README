@@ -1,5 +1,5 @@
 NAME
-    cpan-search - Script to search on CPAN archive.
+    cpan-search - Tool to search on CPAN archive.
 
 SYNOPSIS
      cpan-search [-h] [--version] module_prefix

@@ -1,6 +1,7 @@
 0.10
  - Add tests.
  - Improve cpan-search doc.
+ - Improve tool abstract.
  - Rewrite arguments process to more intuitive way.
  - Rewrite run() tests to use of help() helper.
  - Update Module::Install to 1.21 version.

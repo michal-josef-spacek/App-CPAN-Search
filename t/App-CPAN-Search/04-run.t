@@ -13,17 +13,7 @@ use Test::Output;
 @ARGV = (
 	'-h',
 );
-my $script = abs2rel(File::Object->new->file('04-run.t')->s);
-# XXX Hack for missing abs2rel on Windows.
-if ($OSNAME eq 'MSWin32') {
-	$script =~ s/\\/\//msg;
-}
-my $right_ret = <<"END";
-Usage: $script [-h] [--version] module_prefix
-	-h		Print help.
-	--version	Print version.
-	module_prefix	Module prefix. e.g. Module::Install
-END
+my $right_ret = help();
 stderr_is(
 	sub {
 		App::CPAN::Search->new->run;
@@ -32,3 +22,19 @@ stderr_is(
 	$right_ret,
 	'Run help.',
 );
+
+sub help {
+	my $script = abs2rel(File::Object->new->file('04-run.t')->s);
+	# XXX Hack for missing abs2rel on Windows.
+	if ($OSNAME eq 'MSWin32') {
+		$script =~ s/\\/\//msg;
+	}
+	my $help = <<"END";
+Usage: $script [-h] [--version] module_prefix
+	-h		Print help.
+	--version	Print version.
+	module_prefix	Module prefix. e.g. Module::Install
+END
+
+	return $help;
+}
